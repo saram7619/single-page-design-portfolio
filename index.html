@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Single-page design portfolio</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+  </head>
+
+<body>
+  <header class="primary-header">
+    <div class="container">
+        <div class="nav-wrapper">
+            <svg class="sml" width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#030303" d="M0 0h64v64H0z"/><circle stroke="#FFF7F0" stroke-width="4" cx="25" cy="25" r="14"/></g></svg>
+            <svg class="lge" width="64" height="64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#030303" d="M0 0h64v64H0z"/><circle stroke="#FFF7F0" stroke-width="4" cx="32" cy="32" r="14"/></g></svg>
+            <button class="button">Free Consultation</button>
+        </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="padding-block-600">
+        <div class="container">
+            <h1 class="fs-primary-heading fw-bold text-center">Design solutions made easy</h1>
+            <p class="fs-body fw-regular text-center text-primary-200">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+            </div>
+    </section>
+
+    <section class="padding-block-600">
+        <div class="picture-grid">
+            <article class="picture flow bg-neutral-100 text-primary-300 border-radius">
+                <div class="flex">
+                   <div class="options">
+                        <h3>Graphic Design</h3>
+                    </div>
+                   <div>
+                        <img src="./starter-code/assets/pattern-graphic-design.svg">
+                    </div>
+                </div>
+            </article>
+            <article class="picture flow bg-neutral-200 text-primary-300 border-radius">
+                <div class="flex">
+                    <div class="options">
+                        <h3>UI/UX</h3>
+                    </div>
+                    <div>
+                       <img src="./starter-code/assets/pattern-ui-ux.svg">
+                    </div>
+                </div>
+            </article>
+            <article class="picture flow bg-neutral-300 text-primary-300 border-radius">
+                <div class="flex">
+                    <div class="options">
+                    <h3>Apps</h3>
+                    </div>
+                    <div>
+                        <img src="./starter-code/assets/pattern-apps.svg">
+                    </div>
+                </div>
+            </article>
+            <article class="picture flow bg-neutral-400 text-primary-300 border-radius">
+                <div class="flex">
+                    <h3 class="options">Photography</h3>
+                    <div>
+                        <img src="./starter-code/assets/pattern-photography.svg">
+                    </div>
+                </div>
+            </article>
+            <article class="picture flow bg-neutral-500 text-primary-300 border-radius">
+                <div class="flex">
+                    <div class="options">
+                        <h3>Illustrations</h3>
+                    </div>
+                    <div>
+                        <img src="./starter-code/assets/pattern-illustrations.svg">
+                    </div>
+                </div>
+            </article>
+            <article class="picture flow bg-neutral-600 text-primary-300 border-radius">
+                <div class="flex">
+                    <div class="options">
+                        <h3>Motion Graphics</h3>
+                    </div>
+                    <div>
+                        <img src="./starter-code/assets/pattern-motion-graphics.svg">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+       
+    <section class="padding-block-600">
+        <div class="container">
+            <div class="even-columns">
+                <div>
+                    <div class="amy"></div>
+                </div>
+                <div class="content">
+                    <h2 class="title fw-bold">I’m Amy, and I’d love to work on your next project</h2>
+                    <p class="chat text-primary-200 padding-block-300">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
+                        to complete mobile apps. I’m also handy with a camera!</p> 
+                       <button class="red-button">Free Consultation</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel | padding-block-700  text-center">
+        <h2 class="fs-secondary-heading fw-bold padding-block-300">My Work</h2>
+        <!--Carousel here-->
+        <ul class="slider">
+          <li>
+            <img src="./starter-code/assets/image-slide-1.jpg" alt="">
+          </li>
+          <li>
+            <img src="./starter-code/assets/image-slide-2.jpg" alt="">
+          </li>
+          <li>
+            <img src="./starter-code/assets/image-slide-3.jpg" alt="">
+          </li>
+          <li>
+            <img src="./starter-code/assets/image-slide-4.jpg" alt="">
+          </li>
+          <li>
+            <img src="./starter-code/assets/image-slide-5.jpg" alt="">
+          </li>
+        </ul>
+       </section>
+
+      <section class="padding-block-600">
+        <div class="container">
+            <div class="even-columns-2 bg-primary-100 padding-block-600 border-radius">
+                <div class="content bg-primary-100">
+                      <h3 class="title text-primary-300">Book a call with me</h3>
+                      <p class="chat text-primary-300 ">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
+                        free consultation. Then we can move forward from there.</p>
+                </div>
+                <div>
+                    <button class="red-button">Free Consultation</button>  
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+  <footer class="primary-footer">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="#"><img src="./starter-code/assets/logo.svg"></a>
+            <button class="button">Free Consultation</button>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
